@@ -13,5 +13,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/stevekineeve88/python-mysql-manager.git",
     packages=setuptools.find_packages(),
+    install_requires=[
+        "mysql-connector-python"
+    ],
     python_requires='>=3.8'
 )
