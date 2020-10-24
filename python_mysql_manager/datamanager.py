@@ -1,8 +1,7 @@
 import mysql.connector
 
-from objects.datacontainer import DataContainer
-
 # Manages MySQL queries to database with container result
+from python_mysql_manager.datacontainer import DataContainer
 
 
 class DataManager:

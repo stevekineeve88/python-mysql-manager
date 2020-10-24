@@ -1,5 +1,3 @@
-
-
 class DataContainer:
 
     def __init__(self, status: bool, message: str = "", code: int = 200):

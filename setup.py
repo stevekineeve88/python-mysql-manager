@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="python-mysql-manager",
-    version="1.3.0.0",
+    name="python_mysql_manager",
+    version="2.0.0.0",
     author="Stephen Ayre",
     author_email="stevemamajama@gmail.com",
     description="A wrapper for simplifying python mysql operations",
